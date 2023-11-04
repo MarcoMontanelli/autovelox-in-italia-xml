@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE autovelox_in_italia SYSTEM "mappaAutovelox.dtd">
+<?xml-stylesheet type="text/xsl" href="mappaAutovelox.xsl"?>
+<autovelox_in_italia>
+    <rilevatore tipo="videocamera">
+        <Comune nm="COLLEGNO">
+            <classe nome="5ia"></classe>
+        </Comune>
+        <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
+        <Regione>Piemonte</Regione>
+        <nome>uno</nome>
+        <Anno_inserimento>2010</Anno_inserimento>
+        <Data_e_ora_inserimento>2010-10-12T19:31:50Z</Data_e_ora_inserimento>
+        <Identificatore_in_OpenStreetMap>474673274</Identificatore_in_OpenStreetMap>
+        <Longitudine>7.5781483</Longitudine>
+        <Latitudine>45.0727533</Latitudine>
+    </rilevatore>
+    <rilevatore tipo="videocamera">
+        <Comune nm="COLLEGNO">
+            <classe nome="3ia"></classe>
+        </Comune>
+        <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
+        <Regione>Piemonte</Regione>
+        <nome>due</nome>
+        <Anno_inserimento>2011</Anno_inserimento>
+        <Data_e_ora_inserimento>2011-07-16T01:01:47Z</Data_e_ora_inserimento>
+        <Identificatore_in_OpenStreetMap>474673273</Identificatore_in_OpenStreetMap>
+        <Longitudine>7.5781329</Longitudine>
+        <Latitudine>45.0728535</Latitudine>
+    </rilevatore>
+    <rilevatore tipo="videocamera">
+        <Comune nm="COLLEGNO">
+            <classe nome="4ia"></classe>
+        </Comune>
+        <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
+        <Regione>Piemonte</Regione>
+        <nome>tre</nome>
+        <Anno_inserimento>2013</Anno_inserimento>
+        <Data_e_ora_inserimento>2013-10-21T11:45:25Z</Data_e_ora_inserimento>
+        <Identificatore_in_OpenStreetMap>2503744507</Identificatore_in_OpenStreetMap>
+        <Longitudine>7.587987</Longitudine>
+        <Latitudine>45.0731729</Latitudine>
+    </rilevatore>
+</autovelox_in_italia>

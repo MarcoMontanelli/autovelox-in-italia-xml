@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="autovelox_in_italia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="rilevatore" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Comune">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="classe">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="nome" type="xs:string" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="nm" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Provincia">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="abbreviazione" type="xs:string" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Regione" type="xs:string"/>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="Anno_inserimento" type="xs:integer"/>
+              <xs:element name="Data_e_ora_inserimento" type="xs:dateTime"/>
+              <xs:element name="Identificatore_in_OpenStreetMap" type="xs:integer"/>
+              <xs:element name="Longitudine" type="xs:decimal"/>
+              <xs:element name="Latitudine" type="xs:decimal"/>
+            </xs:sequence>
+            <xs:attribute name="tipo" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
